@@ -1,6 +1,6 @@
 {
   "name": "casbin",
-  "version": "5.11.5",
+  "version": "5.11.5-beta",
   "description": "An authorization library that supports access control models like ACL, RBAC, ABAC in Node.JS",
   "main": "lib/cjs/index.js",
   "typings": "lib/cjs/index.d.ts",
@@ -75,5 +75,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

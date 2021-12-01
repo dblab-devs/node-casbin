@@ -104,8 +104,6 @@ function writeFile(path: string, file: string, encoding?: string): any {
   });
 }
 
-
-
 // hasEval determine whether matcher contains function eval
 function hasEval(s: string): boolean {
   const evalReg = new RegExp(/\beval\(([^),]*)\)/g);
